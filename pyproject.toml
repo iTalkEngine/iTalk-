@@ -9,7 +9,7 @@ description = "Outil CLI & TUI pour l'analyse et la refactorisation de code Pyth
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [
-  {name = "iTalkEngine", email = "diallomaoudia13466@gmail.com"}
+  {name = "iTalkEngine", email = "dev@italk.local"}
 ]
 license = {text = "MIT"}
 dependencies = [
