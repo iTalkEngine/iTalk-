@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyrefactor"
+version = "0.1.0"
+description = "Outil CLI & TUI pour l'analyse et la refactorisation de code Python"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  {name = "iTalkEngine", email = "diallomaoudia13466@gmail.com"}
+]
+license = {text = "MIT"}
+dependencies = [
+  "typer[all]>=0.9",
+  "rich>=13.0",
+  "libcst>=0.4.0",
+]
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "black",
+  "isort",
+  "pre-commit",
+  "ruff"
+]
