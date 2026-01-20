@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+.env
+dist/
+build/
+*.pyc
+*.pyo
+.python-version
+.idea/
+.vscode/
