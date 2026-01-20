@@ -50,3 +50,6 @@ Roadmap rapide
 
 Licence
 MIT — voir LICENSE
+
+Contact
+Repo: iTalkEngine/iTalk-
